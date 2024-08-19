@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" href="./power.png" type="image/x-icon">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Slab&family=Rubik&family=Ubuntu&display=swap");
+      </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid bg-dark fixed-top">
+      <div class="main">
+          <nav class="navbar-des">
+              <ul class="nav-ul">
+                  <li><a href="#" class="text-white fw-bold fs-4 me-5">Co-working</a></li>
+                  <li><a href="#"class="text-white">Home</a></li>
+                  <li><a href="#"class="text-white">Benefits</a></li>
+                  <li><a href="#"class="text-white">About</a></li>
+                  <li><a href="#"class="text-white">Blog</a></li>
+                  <li class="view"><a href="#"class="text-white">View</a>
+                      <div class="view-child bg-dark">
+                          <ul>
+                              <li><a href="#"class="text-white">Reviews</a></li>
+                              <li><a href="#"class="text-white">Contacts</a></li>
+                              <li><a href="#"class="text-white">Examples</a></li>
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+              <div class="icons">
+                  <ul>
+                      <li>
+                          <a href="#"><i class="fa fa-facebook text-white me-5 fw-bold fs-4" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-instagram text-white me-5 fw-bold fs-4" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="fa fa-twitter text-white fs-4 " aria-hidden="true"></i></a>
+                        </li>
+                  </ul>
+              </div>
+          </nav>
+      </div>
+  </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide slide-des" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/office3.jpg" class="d-block w-100 img-position" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-white content para-position">
+              <p class="fw-bold fs-5  mb-0 p1">PROFFESSIONAL</p>
+              <p class="fw-bold fs-1 p1 p2 ms-5">Professional Working Environment</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ullam suscipit in ut, illum assumenda! Lorem ipsum dolor sit amet.
+              </p>
+              <button class="btn-des fw-bold">Get Started &nbsp; &gt;</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/office2.jpg" class="d-block w-100 img-position" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-white content para-position">
+              <p class="fw-bold fs-5  mb-0 p1">FACILITIES</p>
+              <p class="fw-bold fs-1 p1 p2 ms-5">Work Space</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae ullam suscipit in ut, illum assumenda! Lorem ipsum dolor sit amet.
+              </p>
+              <button class="btn-des fw-bold">Get Started &nbsp; &gt;</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/office1.jpg" class="d-block w-100 img-position" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-white content para-position">
+              <p class="fw-bold fs-5  mb-0 p1">TECHNOLOGY</p>
+              <p class="fw-bold fs-1 p1 p2 ms-5">Creative Space</p>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, odit. Recusandae ullam suscipit in ut, illum assumenda! Lorem ipsum dolor sit amet.
+              </p>
+              <button class="btn-des fw-bold">Get Started &nbsp; &gt;</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+    <!-- Part-3 -->
+     <div class="container mt-5">
+      <div class="row">
+        <div class="col-6 mt-4">
+          <p class="mb-0 text-primary fs-5 p3">BENEFITS</p>
+          <p class="fs-3 fw-bold p3">Your Comfort is My Priority</p>
+        </div>
+        <div class="col-6 mt-4">
+          <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem obcaecati asperiores eiu aspernatur natus at ipsam nesciunt culpa vel!</p>
+        </div>
+      </div>
+  
+     <!-- Part-4 -->
+      <div class="mt-5 mb-5">
+        <div class="row text-center">
+          <div class="col-3">
+            <i class="fa fa-envelope-o i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Mail</p>
+            <p class="fs-6 p4"  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-desktop i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Visual</p>
+            <p class="fs-6 p4"  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-file-o i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">File</p>
+            <p class="fs-6 p4"  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-calendar i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Calendar</p>
+            <p class="fs-6 p4"  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="row text-center mt-5 mb-5">
+          <div class="col-3">
+            <i class="fa fa-suitcase i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Suitcase</p>
+            <p class="fs-6 p4"  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-comment-o i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Chat</p>
+            <p class="fs-6 p4"  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-globe i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Global</p>
+            <p class="fs-6 p4" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-laptop i1" aria-hidden="true"></i>
+            <p class="mt-4 fw-bold fs-3">Sites</p>
+            <p class="fs-6 p4" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <!-- part-5 -->
+       <div class="row mt-5 mb-5">
+        <div class="col dire1">
+          <p class="text-info-emphasis fs-5 mb-0">WHO WE ARE</p>
+          <p class="fw-bold fs-1 p5">We're Creative Coworking Working Space For Success</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusamus deserunt maxime repellat voluptas nam incidunt, porro quam, expedita dignissimos sit? Ad qui deleniti facilis?</p>
+        </div>
+        <div class="col">
+          <img src="./images/img.jpg" width="600px" height="600px" class="img-des1">
+        </div>
+       </div>
+       <!-- part-6 -->
+        <div class="mt-5 mb-3">
+          <div class="row mt-5 mb-3">
+            <div class="col-4 mt-5">
+              <div class="parent">
+                <img src="./images/img1.jpg" width="340px" height="320px"  class="img-des1">
+                <div class="child fs-2 fw-bold">
+                  How to Success through market segmentation
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-5 box1 fs-2 fw-bold ms-3">
+              3 Clear Warnings that say your goals are too small
+            </div>
+            <div class="col-4 mt-5 ms-4 mb-3">
+              <div class="parent">
+                <img src="./images/img2.jpg" width="340px" height="320px"  class="img-des1">
+                <div class="child fs-3 fw-bold">
+                  10 things successful people do differently carrer
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-8">
+              <div class="parent1">
+              <img src="./images/img3.jpg" width="720px" height="600px" class="img-des1">
+              <div class="child1 fs-2 fw-bold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis aperiam saepe! Voluptates, recusandae id.
+              </div>
+            </div>
+            </div>
+            <div class="col-4 box2 ps-2 fs-2">
+              <p class="fs-5 mb-0 mx-4 po1">WORKSPACE</p>
+              <p class="fw-bold mx-4 po2">3 clear warnings that say your goals are too small</p>
+              <button class="fs-6 mx-4 btn-des1">read more &nbsp; &gt;</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col box3">
+              <i class="fa fa-coffee fs-1 mb-4 pos1" aria-hidden="true"></i>
+              <p class="fs-5 fw-bold pos2">COMFORT</p>
+              <p class="pos3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minus?</p>
+            </div>
+            <div class="col">
+              <div class="parent2 ms-3">
+                <img src="./images/img4.jpg" width="330px" height="320px">
+                <div class="child2 fs-2 fw-bold">
+                  How to Success through segmentation
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="parent2 ms-2">
+                <img src="./images/img5.jpg" width="330px" height="320px">
+                <div class="child2 fs-2 fw-bold">
+                  10 things successful people do differently career
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <br><br><br><br><br><br><br><br>
+        <!-- part-7 -->
+         <p class="text-info-emphasis text-center fs-5">Examples</p>
+         <p class="fs-1 fw-bold text-center mb-5">We Create  a space for Creativity</p>
+        <div class="container-fluid mb-5">
+         <div class="overflow">
+          <div class="img-box">
+          <img src="./images/scroll-img1.jpg" width="350px" height="250px" class="img-des1">
+        </div>
+          <div class="img-box">
+          <img src="./images/scroll-img2.jpg" width="350px" height="250px" class="img-des1">
+        </div>
+          <div class="img-box">
+          <img src="./images/scroll-img3.jpg" width="350px" height="250px" class="img-des1">
+        </div>
+          <div class="img-box">
+          <img src="./images/scroll-img4.jpg" width="350px" height="250px" class="img-des1">
+        </div>
+          <div class="img-box">
+          <img src="./images/scroll-img5.jpg" width="350px" height="250px" class="img-des1">
+        </div>
+          <div class="img-box">
+          <img src="./images/scroll-img6.jpg" width="350px" height="250px" class="img-des1">
+        </div>
+        </div>
+      </div>
+      <!-- part-8 -->
+       <div class="container mb-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./images/bgimage.jpg" class="d-block w-100 image-pos" alt="...">
+              <div class="carousel-caption d-none d-md-block content-pos">
+                <i class="fa fa-quote-right text-info-emphasis fs-1" aria-hidden="true"></i>
+               <p class="fs-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem nemo ab earum! Optio, repellat!</p>
+                <p class="fs-5">Jack Black</p>
+                <p class="fs-6 text-success">Head Of Sales</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/bgimage.jpg" class="d-block w-100 image-pos" alt="...">
+              <div class="carousel-caption d-none d-md-block content-pos">
+                <i class="fa fa-quote-right text-info-emphasis fs-1" aria-hidden="true"></i>
+               <p class="fs-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem nemo ab earum! Optio, repellat!</p>
+                <p class="fs-5">Jack Black</p>
+                <p class="fs-6 text-success">Head Of Sales</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/bgimage.jpg" class="d-block w-100 image-pos" alt="...">
+              <div class="carousel-caption d-none d-md-block content-pos">
+                <i class="fa fa-quote-right text-info-emphasis fs-1" aria-hidden="true"></i>
+               <p class="fs-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem nemo ab earum! Optio, repellat!</p>
+                <p class="fs-5">Kate White</p>
+                <p class="fs-6 text-success">IT Development</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+       </div>
+       <!-- part-9 -->
+       <div class="container">
+        <div class="row mt-5 mb-5">
+          <div class="col">
+            <img src="./images/schedule-img.jpg" width="480px" height="500px" class="img-des1">
+          </div>
+          <div class="col parent3">
+            <div class="child3">
+            <p class="fw-bold fs-3">We Create a Workspace</p>
+            <p><i class="fa fa-calendar me-1 text-info" aria-hidden="true"></i> March 13, 2025 - March 27, 2025</p>
+            <p><i class="fa fa-clock-o me-1 text-info" aria-hidden="true"></i>18:00 pm - 21:00 pm</p>
+            <p><i class="fa fa-home me-1 text-info" aria-hidden="true"></i>Mobirise Studio</p>
+            <p><i class="fa fa-map-marker me-1 text-info" aria-hidden="true"></i>350 5th Ave, New York, NY 10118</p>
+            <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis libero odio eaque maiores porro nobis.</p>
+            <button class="button-des">read more &nbsp; &gt;</button>
+          </div>
+          </div>
+        </div>
+        <br><br><br><br><br>
+        <!-- part-10 -->
+         <div>
+          <p class="para2 text-center text-info-emphasis fs-5 mb-0">COWORKING</p>
+          <p class="fs-1 fw-bold text-center mb-5">Follow Us</p>
+         </div>
+         <div class="row mt-5 mb-5">
+          <div class="col">
+            <div class="parent5">
+              <img src="./images/scroll-img2.jpg" width="250px" height="250px" class="img-des1">
+              <div class="child5">
+                <i class="fa fa-facebook fs-1" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="parent5">
+              <img src="./images/scroll-img1.jpg" width="250px" height="250px" class="img-des1">
+              <div class="child5">
+                <i class="fa fa-instagram fs-1" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="parent5">
+              <img src="./images/img4.jpg" width="250px" height="250px" class="img-des1">
+              <div class="child5">
+                <i class="fa fa-twitter fs-1" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+           <div class="parent6">
+            <p class="text-white fs-2 text-center pt-5">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="child6">
+              <i class="fa fa-pinterest-p text-white fs-1" aria-hidden="true"></i>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+         <!-- footer-part -->
+          <div class="bg-dark container-fluid size">
+          <div class="row mt-5 text-white ms-5 pt-5">
+            <div class="col-4 ps-5 mt-5">
+              <p class="fs-2 fw-bold">CoWorking Space</p>
+              <p class="fs-6 para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis doloremque eligendi cumque at commodi non.</p>
+              <div class="position1">
+              <div class="parent-style1 me-4">
+                <p><i class="fa fa-facebook text-success fs-6 ps-2 me-3 pt-2" aria-hidden="true"></i></p>
+              </div>
+              <div class="me-4 parent-style2">
+                <p><i class="fa fa-instagram text-info-emphasis fs-6 ps-2 me-3 pt-2 " aria-hidden="true"></i></p>
+              </div>
+              <div class="me-4 parent-style3">
+                <p><i class="fa fa-twitter text-black fs-6 ps-2 me-3 pt-2" aria-hidden="true"></i></p>
+              </div>
+            </div>
+            <div class="input-parent">
+              <input type="email" placeholder="Subscribe" class="input-style mt-3 bg-dark" required>
+              <div class="btn-child">
+                <button class="btn-des2 text-white bg-dark">Go &gt;</button>
+              </div>
+          </div>
+          <p class="mt-3">&copy; Copyright 2025 - All Rights Reserved</p>
+            </div>
+            <div class="col-4 mt-5 pe-4">
+              <p class="fs-2 fw-bold">About</p>
+              <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis, voluptatem, alias mollitia, repellat minima ducimus laborum debitis corrupti dolorum eius. Quia, animi eius? Magni error quibusdam expedita id quaerat?</p>
+              <p><i class="fa fa-map-marker me-2 mt-5" aria-hidden="true"></i> 350 5th Ave, New York, NY 10118</p>
+            </div>
+            <div class="col-4 mt-5">
+              <p class="fs-2 fw-bold">Quick Links</p>
+              <p>- Orders</p>
+              <p>- Support</p>
+              <p>- Forums</p>
+              <p>- Privacy &amp; Policy</p>
+              <p>- Terms</p>
+              <p class="mt-5 mb-0"><i class="fa fa-phone me-2 mb-0" aria-hidden="true"></i>+88 123 456 78 90</p>
+              <p class="mt-0"><i class="fa fa-envelope-o me-2 " aria-hidden="true"></i>mobirise@company.com</p>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>

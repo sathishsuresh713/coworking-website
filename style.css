@@ -1,0 +1,326 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.nav-ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.navbar-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-ul li{
+    list-style-type: none;
+    padding: 15px 20px;
+}
+.nav-ul a{
+    text-decoration: none;
+}
+.view-child li{
+    padding: 5px;
+    padding-right: 10px;
+}
+.view{
+    position: relative;
+}
+.view-child{
+    position: absolute;
+    top: 65px;
+    right: -20px;
+    z-index: 2;
+}
+.slide-des{
+    z-index: 1;
+}
+.view-child{
+    display: none;
+}
+.view:hover .view-child{
+    display: block;
+}
+.icons ul{
+    display: flex;
+    padding-top: 5px;
+}
+.icons li{
+    list-style-type: none;
+}
+.icons a{
+    text-decoration: none;
+}
+.p1{
+    letter-spacing: 3px;
+}
+.p2{
+    width: 82%;
+    padding-left: 30px;
+}
+.btn-des{
+    padding: 15px 25px;
+    border: none;
+    background-color: aqua;
+    color: white;
+}
+.img-position{
+    position: relative;
+}
+.para-position{
+    position: absolute;
+    top: 30%;
+}
+.p3{
+    letter-spacing: 2px;
+}
+.i1{
+    font-size: 50px;
+    color: greenyellow;
+}
+.p4{
+    width: 90%;
+    padding-left: 50px;
+}
+.p5{
+    width: 90%;
+}
+.dire1{
+    margin-top: 15%;
+}
+.img-des1{
+    object-fit: cover;
+}
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 340px;
+    height: 320px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+.parent:hover .child{
+    visibility: visible;
+}
+.box1{
+    width: 340px;
+    height: 320px;
+    background-color: rgb(40, 134, 103);
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.parent1{
+    position: relative;
+}
+.child1{
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    width: 720px;
+    height: 600px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+.parent1:hover .child1{
+    visibility: visible;
+}
+.box2{
+    background-color:rgb(25, 0, 255);
+    color: white;
+    position: relative;
+}
+.btn-des1{
+    position: absolute;
+    top: 60%;
+    border: none;
+    color: white;
+    background-color: rgb(25, 0, 255);
+}
+.po1{
+    position: absolute;
+    top: 25%;
+}
+.po2{
+    position: absolute;
+    top: 30%;
+}
+.box3{
+        width: 330px;
+        height: 320px;
+        background-color: rgb(68, 201, 101);
+        color: white;
+        position: relative;
+}
+.pos1, .pos2, .pos3{
+    position: absolute;
+}
+.pos1{
+    top: 15%;
+    left: 40%;
+}
+.pos2{
+    top: 30%;
+    left: 35%;
+}
+.pos3{
+    width: 90%;
+    top: 45%;
+    left: 10%;
+}
+.parent2{
+    position: relative;
+}
+.child2{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 330px;
+    height: 320px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    visibility: hidden;
+}
+.parent2:hover .child2{
+    visibility: visible;
+}
+.overflow{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    overflow: auto;
+}
+.img-box{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    margin-right: 30px;
+}
+.image-pos{
+    position: relative;
+}
+.content-pos{
+    position: absolute;
+    top: 35%;
+}
+.parent3{
+    position: relative;
+}
+.child3{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+.para1{
+    width: 90%;
+}
+.button-des{
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(27, 133, 133);
+    border-radius: 5px;
+    color: white;
+}
+.para2{
+    letter-spacing: 3px;
+}
+.parent5{
+    position: relative;
+}
+.child5{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    visibility: hidden;
+}
+.parent5:hover .child5{
+    visibility: visible;
+}
+.parent6{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(27, 133, 133);
+    position: relative;
+}
+.child6{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.parent6:hover .child6{
+    visibility: visible;
+}
+.position1{
+    display: flex;
+}
+.parent-style1{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(70, 235, 70);
+    border-radius: 50%;
+}
+.parent-style2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(129, 243, 205);
+    border-radius: 50%;
+}
+.parent-style3{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.para3{
+    width: 80%;
+}
+.input-style{
+    padding: 15px 25px;
+    width: 90%;
+    border: 1px solid grey;
+}
+.btn-des2{
+    padding: 13px;
+}
+.input-parent{
+    position: relative;
+}
+.btn-child{
+    position: absolute;
+    top: 15px;
+    left: 73%;
+    border: none;
+    background-color: transparent;
+    opacity: 0.5;
+}
+.size{
+    height: 530px;
+}
